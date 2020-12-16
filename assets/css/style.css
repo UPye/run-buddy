@@ -156,17 +156,6 @@ section {
     text-align: center;
 }
 
-/* apply styles to Intro h2 section */
-.intro h2 {
-    font-size: 55px;
-    color: #024E76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #FCE138;
-    display: inline-block;
-}
-
 /* apply styling for intro p section */
 .intro p {
     line-height: 1.7;
@@ -174,4 +163,52 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+}
+
+/* apply styles to Steps section */
+.steps {
+    text-align: center;
+    background: #FCE138;
+} 
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024E76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39A6B2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+
+/* apply styles to section and primary and secondary border title */
+.section-title {
+    font-size: 55px;
+    color: #024E76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #FCE138;
+}
+
+.secondary-border {
+    border-color: #39A6B2;
 }
