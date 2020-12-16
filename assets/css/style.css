@@ -151,3 +151,27 @@ section {
     font-size: 16px;
 }
 
+/* apply styles to Intro section */
+.intro {
+    text-align: center;
+}
+
+/* apply styles to Intro h2 section */
+.intro h2 {
+    font-size: 55px;
+    color: #024E76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #FCE138;
+    display: inline-block;
+}
+
+/* apply styling for intro p section */
+.intro p {
+    line-height: 1.7;
+    color: #39A6B2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
