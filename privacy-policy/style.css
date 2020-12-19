@@ -1,0 +1,128 @@
+/* I'm a CSS comment! */
+
+/* *is a universal selector for styling every element */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* apply styles to the body */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #39A6B2;
+}
+
+/* apply styles to the header */
+
+header {
+    padding: 20px 35px;
+    background-color: #39A6B2;
+}
+
+/* apply styles to the h1 header */
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #FCE138;
+    margin: 0;
+    display: inline;
+}
+
+/* apply styles to the header a */
+
+header a {
+    text-decoration: none;
+    color: #FCE138;
+}
+
+/* apply styles to the header nav */
+
+header nav {
+    float: right;
+    margin: 7px;
+}
+
+/* apply styles to the header nav ul li */
+
+header nav ul li {
+    display: inline;
+}
+
+/* apply styles to the header nav ul li a*/
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/* apply styles to the footer */
+
+footer {
+    background: #FCE138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+/* apply styles to the footer */
+
+footer h2 {
+    display: inline;
+    color: #024E76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024E76;
+}
+
+/* apply styles to the sections */
+
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Hero Style End */
+
+/* Hero Form Style Start */
+.hero-form {
+    background-color: #FCE138;
+    color: #024E76;
+    padding: 20px;
+    width: 500px;
+    border: solid #024E76 3px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+/* Hero Form Style End */
+
+/* Start of styling for privacy policy */
+.privacy {
+    text-align: center;
+    background-image: url(./hero-bg.jpg);
+    color: #FCE138;
+    border-bottom: #FCE138;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}

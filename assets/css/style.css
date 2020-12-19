@@ -263,13 +263,13 @@ section {
 }
 
 /* apply styles to Reach Out section */
-.contact-info {
+.contact {
+    color: #024E76;
     text-align: center;
-    color: #FCE138;
-    background: #024E76;
+    background-color: #024E76;
 }
 
-.contact-info h2 {
+.contact h2 {
     color: #FCE138;
 }
 
@@ -286,3 +286,21 @@ section {
     margin: 30px 0 0 60px;
     color: white;
 }
+
+.contact-info h3 {
+    color: #FCE138;
+    font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #FCE138;
+}
+
+/* End of Reach Out section's styles */
