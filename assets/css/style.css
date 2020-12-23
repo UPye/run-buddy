@@ -70,19 +70,20 @@ footer {
     background: #FCE138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* apply styles to the footer */
 
 footer h2 {
-    display: inline;
     color: #024E76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
