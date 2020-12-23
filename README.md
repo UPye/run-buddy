@@ -1,4 +1,22 @@
-# run-buddy
+# Run Buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built with
+* HTML
+* CSS
+
+## Website
+https://upye.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by Urika
+
+
+
+
+
 <!--Notes
 /* Applies 20px to every side (top, right, bottom, left) */
  header {
