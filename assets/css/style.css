@@ -264,7 +264,6 @@ section {
 
 /* apply styles to Reach Out section */
 .contact {
-    color: #024E76;
     text-align: center;
     background-color: #024E76;
 }
@@ -275,7 +274,7 @@ section {
 
 .contact-info iframe {
     width: 400px;
-    height: 400 px;
+    height: 400px;
 }
 
 .contact-info div {
