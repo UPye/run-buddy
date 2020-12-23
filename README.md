@@ -14,6 +14,12 @@ https://upye.github.io/run-buddy/
 Made with ❤️ by Urika
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> c3f8fdda144fea54bc50030d08ab66736a1c2c4d
 <!--Notes
 /* Applies 20px to every side (top, right, bottom, left) */
  header {
