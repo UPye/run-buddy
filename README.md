@@ -1,4 +1,4 @@
-# Run Buddy, Inc.
+# Run Buddy, Inc
 
 ## Purpose
 A website that offers fitness training services.
@@ -12,6 +12,8 @@ https://upye.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Urika
+
+### ©️2019 Run Buddy, Inc
 
 
 
