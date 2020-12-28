@@ -60,7 +60,7 @@ header nav ul {
 /* apply styles to the header nav ul li a*/
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -107,6 +107,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 /* Hero Style End */
 
@@ -126,7 +127,7 @@ section {
     margin: 3.5%;
     color: #FFF;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 /* Hero Form Style End */
 
@@ -227,7 +228,7 @@ section {
 
 /* apply styles to section and primary and secondary border title */
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024E76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -356,4 +357,10 @@ section {
 
 .flex-row {
     display: flex;
+}
+
+/* Media Query for Smaller Desktop Screens and Smaller */
+@media screen and (max-width: 980px) {
+    
+    }
 }
