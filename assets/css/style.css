@@ -290,6 +290,21 @@ section {
     font-size: 17px;
 }
 
+/* End stylings for Trainers section */
+
+/* Begin stylings for CSS Grid for training services */
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+
 /* apply styles to Reach Out section */
 .contact {
     background-color: #024E76;
