@@ -22,6 +22,9 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 /* apply styles to the h1 header */
@@ -31,6 +34,7 @@ header h1 {
     font-size: 36px;
     color: #FCE138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* apply styles to the header a */
@@ -62,6 +66,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* apply styles to the footer */
@@ -112,12 +117,14 @@ section {
 
 /* Hero Form Style Start */
 .hero-form {
-    background-color: #FCE138;
+    background-color: rgba(252, 225, 56, 0.8);
     color: #024E76;
     padding: 20px;
     border: solid #024E76 3px;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .hero-cta {
@@ -134,6 +141,7 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #FCE138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Hero Form P Style Start */
@@ -152,6 +160,16 @@ section {
     margin: 0 5px;
 }
 
+/* apply styles to hero-form button */
+.hero-form button {
+    color: #FCE138;
+    background-color: #024E76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
 /* apply styles to form-input class */
 .form-input {
     border: 1px solid #024e76;
@@ -161,16 +179,10 @@ section {
     width: 100%;
     color: #024E76;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
-/* apply styles to hero-form button */
-.hero-form button {
-    color: #FCE138;
-    background-color: #024E76;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-}
+
 
 /* apply styling for intro p section */
 .intro p {
@@ -396,6 +408,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -406,6 +419,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .contact-info a {
