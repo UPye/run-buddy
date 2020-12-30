@@ -73,6 +73,14 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* apply styles to the header nav ul li a element when user's icon hovers */
+header nav ul li a:hover {
+    background: #FCE138;
+    color: #024E76;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
 /* apply styles to the footer */
 
 footer {
@@ -175,6 +183,11 @@ section {
     border-radius: 10px;
 }
 
+/* apply styles to hero-form button when user's icon hovers */
+.hero-form button:hover {
+    background-color: #39A6B2;
+}
+
 /* apply styles to form-input class */
 .form-input {
     border: 1px solid #024e76;
@@ -185,9 +198,14 @@ section {
     color: #024E76;
     margin-bottom: 15px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
-
+/* create a new rule for focus state */
+.form-input:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
 
 /* apply styling for intro p section */
 .intro p {
@@ -209,12 +227,16 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39A6B2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 } 
+
+.step:not(:last-child) {
+    border-bottom: 1px solid #39A6B2;
+}
+
 .step-img {
     flex: 1 12%;
     margin-right: 20px;
@@ -414,6 +436,13 @@ section {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* create new rule for focus state */
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
 }
 
 .contact-form button {
@@ -425,6 +454,12 @@ section {
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
+}
+
+/* apply styles to contact-form button when user's icon hovers */
+.contact-form button:hover {
+    color: #FCE138;
+    background: #39A6B2;
 }
 
 .contact-info a {
